@@ -16,7 +16,7 @@ This script converts binary, trinary, etc. to decimal format.
   * **Output Example**: "please enter a number"
 
 * The program should return an alert when the user inputs a string that contains fewer digits than the digit associated with the x-nary (e.g., if x is 3 [trinary] throws alert if there are 4-9s in the string).
-  * **Input Example**: "1010200"
+  * **Input Example**: ("1010200", 2) #the two here corresponds to the desired base
   * **Output Example**: "please enter symbols associated with this base"
 
 * The program should take a string as input and return an integer the converts a binary string into a decimal integer.

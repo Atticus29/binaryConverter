@@ -1,7 +1,7 @@
 
-# A bash script tool to help streamline creation of new websites for Epicodus
+# A website to convert base X strings to decimal
 
-#### 10 Feb., 2017, v.1.0.1
+#### 22 Feb., 2017, v.1.0.0
 
 #### By Mark Fisher
 
@@ -14,6 +14,10 @@ This script converts binary, trinary, etc. to decimal format.
 * The program should return an alert when the user inputs a string that is not a number.
   * **Input Example**: "hello"
   * **Output Example**: "please enter a number"
+
+* The program should return an alert when the user inputs a string that contains fewer digits than the digit associated with the x-nary (e.g., if x is 3 [trinary] throws alert if there are 4-9s in the string).
+  * **Input Example**: "1010200"
+  * **Output Example**: "please enter symbols associated with this base"
 
 * The program should take a string as input and return an integer the converts a binary string into a decimal integer.
   * **Input Example**:"0"

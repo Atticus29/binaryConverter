@@ -1,4 +1,31 @@
 // Back End
+var validateXnary = function (str, base){
+  if (typeof base === "number" && base<11){
+    // we don't have to use letters yet
+    var validNumbersArray = [];
+    for (var i=0; i<base; i++){
+      validNumbersArray.push(i);
+    }
+    // console.log(validNumbersArray);
+    var counter = 0;
+    for(var i = 0; i<str.length; i++){
+      // console.log("validNumbersArray is " + validNumbersArray);
+      // console.log("str[i] is " + str[i]);
+      if(validNumbersArray.indexOf(parseInt(str[i]))>-1){
+        counter ++;
+        // console.log("counter is now " + counter);
+      }
+    }
+    if(str.length===counter){
+      return true;
+    }else{
+      return false;
+    }
+  }
+}
+// console.log(validateXnary("12122", 3));
+// console.log(validateXnary("12322", 3));
+
 var convertXnaryToInt = function(str){
   // var inputInt = parseInt(str);
   if(!parseInt(str)){
@@ -16,7 +43,7 @@ var convertXnaryToInt = function(str){
   return answer;
 }
 
-console.log(convertXnaryToInt("hi"));
+// console.log(convertXnaryToInt("hi"));
 // console.log(convertXnaryToInt("0"));
 // console.log(convertXnaryToInt("1"));
 // console.log(convertXnaryToInt("10"));

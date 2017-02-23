@@ -7,17 +7,47 @@
 
 ## Description
 
-This script takes three arguments from the user (repo name, parter 1 initials, and partner 2 initials), and uses those variables to create a directory with repo name, create a "css" subdirectory, create an "img" subdirectory, create a styles.css document in the css subdirectory, create an index.html document in the repo folder, initialized the folder as a git repo, executes `git pair` with partner 1's and partner 2's intials, adds everything, makes a first paired commit, and opens the directory in atom.
+This script converts binary, trinary, etc. to decimal format.
 
 ### Specifications
 
-* The program should return __ when __.
-  * **Input Example**: 
-  * **Output Example**:
+* The program should return an alert when the user inputs a string that is not a number.
+  * **Input Example**: "hello"
+  * **Output Example**: "please enter a number"
 
-* The program should return __ when __.
-  * **Input Example**: 
-  * **Output Example**:
+* The program should take a string as input and return an integer the converts a binary string into a decimal integer.
+  * **Input Example**:"0"
+  * **Output Example**: 0
+  * **Input Example**:"1"
+  * **Output Example**: 1
+  * **Input Example**:"10"
+  * **Output Example**: 2
+  * **Input Example**:"11"
+  * **Output Example**: 3
+  * **Input Example**:"100"
+  * **Output Example**: 4
+
+* The program should convert a trinary string into a decimal integer.
+  * **Input Example**:"0"
+  * **Output Example**:0
+  * **Input Example**:"1"
+  * **Output Example**:1
+  * **Input Example**:"2"
+  * **Output Example**:2
+  * **Input Example**:"10"
+  * **Output Example**:3
+  * **Input Example**:"11"
+  * **Output Example**:4
+  * **Input Example**:"12"
+  * **Output Example**:5
+  * **Input Example**:"20"
+  * **Output Example**:6
+  * **Input Example**:"21"
+  * **Output Example**:7
+  * **Input Example**:"100"
+  * **Output Example**:9
+  * **Input Example**:"112"
+  * **Output Example**:14
 
 ## Setup/Installation Requirements
 
@@ -46,8 +76,8 @@ This script takes three arguments from the user (repo name, parter 1 initials, a
     * On a Mac, this would be in the Applications/Utilities directory, and is called, "Terminal"
     * Windows uses a Terminal program as well, but a Terminal with all the capabilities we'll require is not installed by default. Thankfully, we can easily download and install a Terminal program that does fit our needs.
 There are many options available, but we recommend using a terminal program called git bash. You can download this free program at [msysgit.github.io](https://git-for-windows.github.io/).
-  * Clone this track survey repository by typing, `git clone https://github.com/Atticus29/TrackSuggester.git` 
-* Download 
+  * Clone this track survey repository by typing, `git clone https://github.com/Atticus29/TrackSuggester.git`
+* Download
   * Click [here](https://github.com/Atticus29/_repoNameHere_/archive/master.zip) to download the repo
   * Unzip the zipped repository
 * Open the TrackSuggester folder and double-click on index.html.
